@@ -26,11 +26,11 @@ pipeline {
         }
     }
             
-        post {
-            success {
-                echo 'Pipeline successful!'
-            }
+    post {
+        success {
+            echo 'Pipeline successful!'
         }
+    }
 }
 
 
